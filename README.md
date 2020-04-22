@@ -1,4 +1,4 @@
-# FlaskLocator - v.2.0
+# FlaskLocator - v.2.1
 Python Flask Geolocator, Ip Tracker, Device Info by URL (Ngrok Hosting) 
 
 # Features:
