@@ -12,7 +12,6 @@ Python Flask Geolocator, Ip Tracker, Device Info by URL (Ngrok Hosting)
 <li>Custom redirects.  </li>
 
 # Installation:
-<li>You will need to have Ngrok installed for it to work. (<b>Ngrok Download Page</b>: https://ngrok.com/download)</li>
 <li>git clone https://github.com/JaniniRami07/FlaskLocator</li>
 <li>cd FlaskLocator</li>
 <li>python3 -m pip install -r requirements.txt</li>
