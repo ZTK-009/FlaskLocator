@@ -1,4 +1,4 @@
-# FlaskLocator - v.2.1
+# FlaskLocator - v.2.2
 Python Flask Geolocator, Ip Tracker, Device Info by URL (Ngrok Hosting) 
 
 # Features:
@@ -8,8 +8,10 @@ Python Flask Geolocator, Ip Tracker, Device Info by URL (Ngrok Hosting)
 <li>Get victim's user-agent.</li>
 <li>Get victim's service provider.</li>
 <li>Log all data to a text file.</li>
+<li>Send log file your email. <b>(NEW FEATURE)</b></li>
 <li>Anonymous ngrok web hosting.</li>
 <li>Custom redirects.  </li>
+
 
 # Installation:
 <li>git clone https://github.com/JaniniRami07/FlaskLocator</li>
