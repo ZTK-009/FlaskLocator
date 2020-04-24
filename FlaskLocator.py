@@ -134,6 +134,8 @@ def endingBanner():
 def getRedirect():
     if redirect == "":
         getRedirect.redirect = "www.google.com"
+    else:
+        getRedirect.redirect = redirect
 
 
 def getJsonData():
